@@ -1,0 +1,224 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.pyc
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# C/C++
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.pdb
+*.idb
+*.ilk
+*.map
+*.exp
+*.gch
+*.pch
+*.tmp
+*.temp
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+
+# ROS
+devel/
+logs/
+build/
+bin/
+lib/
+msg_gen/
+srv_gen/
+msg/
+srv/
+*.launch~
+*.bag
+.catkin_workspace
+.rosinstall
+
+# Arduino
+*.hex
+*.eep
+*.elf
+*.map
+*.sym
+*.lss
+*.fuse
+*.lock
+*.tmp
+*.swp
+
+# YOLO and AI Models
+*.pt
+*.weights
+*.onnx
+*.engine
+*.trt
+*.pb
+yolov*.pt
+best.pt
+last.pt
+runs/
+datasets/
+wandb/
+
+# Logs and Output Files
+*.log
+*.txt
+*.csv
+detection_log_*.txt
+tts_output.mp3
+*.mp3
+*.wav
+*.avi
+*.mp4
+*.mov
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration and Secrets
+config.ini
+secrets.txt
+*.key
+*.pem
+.env.local
+.env.production
+.env.test
+
+# Temporary and Cache Files
+tmp/
+temp/
+cache/
+.cache/
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# Map Files (large binary files)
+*.pgm
+*.yaml.bak
+map_*.pgm
+map_*.yaml
+
+# Documentation Build
+docs/_build/
+site/
+
+# Package Files
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# System Files
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Network and Communication
+*.pcap
+*.cap
+
+# Hardware specific
+*.bin
+*.dfu
+
+# Custom project specific
+server/iot_server
+clients/iot_client
+clients/iot_bot_client
+clients/*.out
+
+# Test files
+test_*.py
+*_test.py
+test/
+tests/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Node.js (if any frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# LaTeX (if documentation)
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Backup files
+*.orig
+*.rej
